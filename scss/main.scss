@@ -1,0 +1,23 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+#app-container{
+  background-color: #1C3265;
+
+  .land-page {
+    // font-family: 'Oleo Script', cursive;
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+    font-size: 3em;
+    padding-left: 25%;
+  }
+
+  h2{
+    padding-left: 15%;
+  }
+}
