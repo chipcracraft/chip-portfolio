@@ -40,25 +40,52 @@ body {
       color: #1C3265;
       background-color: white;
 
+  .image-container {
+      padding-top: 15%;
 
-.my-image {
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  margin-left: 44%;
-  margin-top: 25%;
-  
+    }
+
+  .my-image {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 25%;
+
  }
- .about {
-   padding-left: 25%;
-   font-family: 'Holtwood One SC', serif;
+   .about {
+     padding-left: 25%;
+     font-family: 'Holtwood One SC', serif;
 
  }
 
 .my-info {
   padding-left: 25%;
   font-family: 'Yrsa', serif;
+  }
 }
+
+.projects {
+  background-color:#1C3265;
+  color: white;
+
+  .header {
+    padding-left: 40%;
+  }
+
+  .whosplayin, .lager {
+    font-family: 'Yrsa', serif;
+    font-size: 2em;
+    display: inline-block;
+}
+  .title {
+    font-weight: 500;
+  }
+  .whopimg {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
 
 
 }
