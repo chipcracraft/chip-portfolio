@@ -6,12 +6,12 @@ img {
    display: block;
 }
 body {
-  background-color: #1C3265;
+  background-color: #3498db;
 
 
 }
 #app-container{
-  background-color: #1C3265;
+  background-color: #3498db;
   background-size: cover;
 
   .land-page {
@@ -33,12 +33,27 @@ body {
   h2{
     padding-left: 20%;
   }
+  .button {
+    text-decoration: none;
+  }
+  .arrow {
+    position: fixed;
+    right: 3%;
+    top: 50%;
+    }
+
 }
+
 
 .about-me {
       font-family: 'Holtwood One SC', serif;
       color: #1C3265;
       background-color: white;
+      position: absolute;
+      top: 0;
+      // left:9999px;
+      width: 100%;
+      height: 100px;
 
   .image-container {
       padding-top: 15%;
@@ -55,7 +70,7 @@ body {
  }
    .about {
      padding-left: 25%;
-     font-family: 'Holtwood One SC', serif;
+    //  font-family: 'Bowlby One SC', cursive;
 
  }
 
@@ -73,10 +88,19 @@ body {
     padding-left: 40%;
   }
 
-  .whosplayin, .lager {
+  .whosplayin{
     font-family: 'Yrsa', serif;
     font-size: 2em;
     display: inline-block;
+    width: 50%;
+    text-align: justify;
+}
+
+.lager {
+  font-family: 'Yrsa', serif;
+  font-size: 2em;
+  display: inline-block;
+  width: 50%;
 }
   .title {
     font-weight: 500;
