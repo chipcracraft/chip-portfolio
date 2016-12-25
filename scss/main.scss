@@ -90,6 +90,7 @@ body {
 .projects {
   background-color:#3498db;
   color: white;
+  display: none;
 
   .header {
     padding-left: 40%;
@@ -135,7 +136,36 @@ body {
   float:right;
   display: inline-block;
   }
+}
 
 
-  }
+
+.more-info {
+  background-color: white;
+  color:#3498db;
+
+
+
+    .skills {
+      font-family: 'Yrsa', serif;
+      float: left;
+      width: 50%;
+      display: inline-block;
+      margin: 0;
+    }
+
+    .heads {
+      font-family: 'Holtwood One SC', serif;
+
+    }
+
+    .contact-info {
+      display: inline-block;
+      float: right;
+      width: 50%;
+    }
+  
+}
+
+
 }

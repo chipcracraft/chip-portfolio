@@ -420,7 +420,8 @@ body {
       font-family: 'Yrsa', serif; }
   #app-container .projects {
     background-color: #3498db;
-    color: white; }
+    color: white;
+    display: none; }
     #app-container .projects .header {
       padding-left: 40%;
       font-family: 'Holtwood One SC', serif; }
@@ -451,5 +452,20 @@ body {
     #app-container .projects .right-col {
       float: right;
       display: inline-block; }
+  #app-container .more-info {
+    background-color: white;
+    color: #3498db; }
+    #app-container .more-info .skills {
+      font-family: 'Yrsa', serif;
+      float: left;
+      width: 50%;
+      display: inline-block;
+      margin: 0; }
+    #app-container .more-info .heads {
+      font-family: 'Holtwood One SC', serif; }
+    #app-container .more-info .contact-info {
+      display: inline-block;
+      float: right;
+      width: 50%; }
 
 /*# sourceMappingURL=styles.css.map */
