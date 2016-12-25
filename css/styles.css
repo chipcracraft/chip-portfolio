@@ -377,67 +377,79 @@ body {
 #app-container {
   background-color: #3498db;
   background-size: cover; }
+  #app-container .slider {
+    max-height: 1000px;
+    max-width: 1280px; }
   #app-container .land-page {
     font-family: 'Holtwood One SC', serif;
     color: white;
     font-size: 3em;
     padding-left: 25%;
-    padding-top: 15%; }
+    padding-top: 15%;
+    padding-bottom: 25%; }
   #app-container .chip {
     font-size: 5em;
     margin: 0; }
   #app-container h2 {
-    padding-left: 20%; }
+    padding-left: 25%; }
   #app-container .button {
     text-decoration: none; }
   #app-container .arrow {
     position: fixed;
     right: 3%;
     top: 50%; }
-
-.about-me {
-  font-family: 'Holtwood One SC', serif;
-  color: #1C3265;
-  background-color: white;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100px; }
-  .about-me .image-container {
-    padding-top: 15%; }
-  .about-me .my-image {
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    margin-left: 40%;
-    margin-top: 25%; }
-  .about-me .about {
-    padding-left: 25%; }
-  .about-me .my-info {
-    padding-left: 25%;
-    font-family: 'Yrsa', serif; }
-
-.projects {
-  background-color: #1C3265;
-  color: white; }
-  .projects .header {
-    padding-left: 40%; }
-  .projects .whosplayin {
-    font-family: 'Yrsa', serif;
-    font-size: 2em;
-    display: inline-block;
-    width: 50%;
-    text-align: justify; }
-  .projects .lager {
-    font-family: 'Yrsa', serif;
-    font-size: 2em;
-    display: inline-block;
-    width: 50%; }
-  .projects .title {
-    font-weight: 500; }
-  .projects .whopimg {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%; }
+  #app-container .about-me {
+    font-family: 'Holtwood One SC', serif;
+    color: #1C3265;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 1500px; }
+    #app-container .about-me .image-container {
+      padding-top: 15%; }
+    #app-container .about-me .my-image {
+      border-radius: 50%;
+      height: 300px;
+      width: 300px;
+      margin-left: 40%;
+      margin-top: 25%; }
+    #app-container .about-me .about {
+      padding-left: 25%; }
+    #app-container .about-me .my-info {
+      padding-left: 25%;
+      font-family: 'Yrsa', serif; }
+  #app-container .projects {
+    background-color: #3498db;
+    color: white; }
+    #app-container .projects .header {
+      padding-left: 40%;
+      font-family: 'Holtwood One SC', serif; }
+    #app-container .projects .whosplayin {
+      float: left;
+      font-family: 'Yrsa', serif;
+      font-size: 2em;
+      display: inline-block;
+      width: 50%;
+      padding-left: 10%; }
+    #app-container .projects .whopimg, #app-container .projects .lagLeg {
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+      margin-left: 65px; }
+    #app-container .projects .lager {
+      float: right;
+      font-family: 'Yrsa', serif;
+      font-size: 2em;
+      display: inline-block;
+      width: 50%;
+      padding-left: 10%; }
+    #app-container .projects .title {
+      font-weight: 500; }
+    #app-container .projects .left-col {
+      float: left;
+      display: inline-block; }
+    #app-container .projects .right-col {
+      float: right;
+      display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */
