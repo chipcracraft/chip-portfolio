@@ -11,27 +11,25 @@ body {
 }
 
 
-
 #app-container{
   background-color: #3498db;
   background-size: cover;
 
   .slider {
-    max-height: 1000px;
-    max-width: 1280px;
+    // max-height: 1000px;
+    // max-width: 1280px;
   }
 
 
   .land-page {
-    // font-family: 'Oleo Script', cursive;
-    // font-family: 'Bowlby One SC', cursive;
+
     font-family: 'Holtwood One SC', serif;
     color: white;
     font-size: 3em;
     padding-left: 20%;
     padding-top: 15%;
     padding-bottom: 25%;
-    // display: none;
+
 
   }
 
@@ -102,7 +100,6 @@ body {
 .projects {
   background-color:#3498db;
   color: white;
-  // display: none;
   font-size: 2em;
   margin-bottom: 2%;
 
@@ -197,5 +194,15 @@ body {
     .fa-linkedin {
       padding-left: 20px;
     }
+
+}
+
+@media screen and(min-width: 768px) {
+
+ .whosplayin, .lager {
+   display: block;
+   width: 50%;
+ }
+
 
 }
