@@ -393,13 +393,18 @@ body {
 .hi {
   margin-left: 33%;
   font-weight: 100;
-  font-family: avenir; }
+  font-family: avenir;
+  padding-bottom: 2%; }
 
 .front-end {
   margin-left: 27%;
   font-family: avenir;
   padding-top: 2%;
   font-weight: 100; }
+
+.down-arrow {
+  padding-left: 36%;
+  padding-top: 10%; }
 
 h2 {
   padding-left: 25%; }
