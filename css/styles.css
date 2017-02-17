@@ -367,34 +367,50 @@ textarea {
 * {
   box-sizing: border-box; }
 
-img {
-  width: 100%;
-  display: block; }
-
 body {
-  background-color: #3498db; }
+  background-color: #3498db;
+  margin: 0; }
 
 #app-container {
-  background-color: #3498db;
-  background-size: cover; }
-  #app-container .land-page {
-    font-family: 'Holtwood One SC', serif;
-    color: white;
-    font-size: 3em;
-    padding-left: 20%;
-    padding-top: 15%;
-    padding-bottom: 25%; }
-  #app-container .chip {
-    font-size: 5em;
-    margin: 0; }
-  #app-container h2 {
-    padding-left: 25%; }
-  #app-container .button {
-    color: white; }
-  #app-container .arrow {
-    position: fixed;
-    right: 3%;
-    top: 50%; }
+  margin: 0; }
+
+.land-page {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 3em;
+  padding-left: 20%;
+  padding-top: 15%;
+  padding-bottom: 25%;
+  background-size: cover;
+  background: linear-gradient(to right bottom, #4990E2 50%, #4697F7 45%);
+  width: 100%; }
+
+.chip {
+  font-size: 2.5em;
+  margin: 0; }
+
+.hi {
+  margin-left: 33%;
+  font-weight: 100;
+  font-family: avenir; }
+
+.front-end {
+  margin-left: 27%;
+  font-family: avenir;
+  padding-top: 2%;
+  font-weight: 100; }
+
+h2 {
+  padding-left: 25%; }
+
+.button {
+  color: white; }
+
+.arrow {
+  position: fixed;
+  right: 3%;
+  top: 50%; }
 
 .about-me {
   font-family: 'Holtwood One SC', serif;
@@ -402,59 +418,71 @@ body {
   background-color: white;
   font-size: 2em;
   width: 100%; }
-  .about-me .my-image {
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    margin-left: 22%;
-    margin-top: 6%; }
-  .about-me .info-sect {
-    margin-bottom: 5%; }
-  .about-me .about {
-    padding-left: 25%; }
-  .about-me .my-info {
-    padding-left: 25%;
-    font-family: 'Yrsa', serif;
-    font-size: 1em; }
+
+.my-image {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  margin-left: 22%;
+  margin-top: 6%; }
+
+.info-sect {
+  margin-bottom: 5%; }
+
+.about {
+  padding-left: 25%; }
+
+.my-info {
+  padding-left: 25%;
+  font-family: 'Yrsa', serif;
+  font-size: 1em; }
 
 .projects {
   background-color: #3498db;
   color: white;
   font-size: 2em;
   margin-bottom: 2%; }
-  .projects .header {
-    padding-top: 2%;
-    padding-left: 33%;
-    font-family: 'Holtwood One SC', serif; }
-  .projects .whosplayin {
-    float: left;
-    font-family: 'Yrsa', serif;
-    font-size: 1em;
-    display: inline-block;
-    width: 50%;
-    padding-left: 5%; }
-  .projects .whopimg, .projects .lagLeg {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    margin-left: 65px; }
-  .projects .lager {
-    float: right;
-    font-family: 'Yrsa', serif;
-    font-size: 1em;
-    display: inline-block;
-    width: 50%;
-    padding-left: 10%; }
-  .projects .title {
-    font-weight: 500; }
-  .projects .left-col {
-    float: left;
-    display: inline-block; }
-  .projects .right-col {
-    float: right;
-    display: inline-block; }
-  .projects a {
-    color: white; }
+
+.header {
+  padding-top: 2%;
+  padding-left: 33%;
+  font-family: 'Holtwood One SC', serif; }
+
+.whosplayin {
+  float: left;
+  font-family: 'Yrsa', serif;
+  font-size: 1em;
+  display: inline-block;
+  width: 50%;
+  padding-left: 5%; }
+
+.whopimg, .lagLeg {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-left: 65px; }
+
+.lager {
+  float: right;
+  font-family: 'Yrsa', serif;
+  font-size: 1em;
+  display: inline-block;
+  width: 50%;
+  padding-left: 10%; }
+
+.title {
+  font-weight: 500; }
+
+.left-col {
+  float: left;
+  display: inline-block; }
+
+.right-col {
+  float: right;
+  display: inline-block; }
+
+a {
+  color: white; }
 
 .more-info {
   background-color: white;
