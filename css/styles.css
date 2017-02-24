@@ -455,7 +455,7 @@ h2 {
 
 .whosplayin {
   float: left;
-  font-family: 'Yrsa', serif;
+  font-family: avenir;
   font-size: 1em;
   display: inline-block;
   width: 50%;
@@ -469,7 +469,7 @@ h2 {
 
 .lager {
   float: right;
-  font-family: 'Yrsa', serif;
+  font-family: avenir;
   font-size: 1em;
   display: inline-block;
   width: 50%;
@@ -496,7 +496,7 @@ a {
   max-width: 1280px;
   width: 100%; }
   .more-info .skills {
-    font-family: 'Yrsa', serif;
+    font-family: avenir;
     float: left;
     width: 50%;
     display: inline-block;
@@ -504,13 +504,13 @@ a {
     padding-left: 20%;
     font-size: 2em; }
   .more-info .heads {
-    font-family: 'Holtwood One SC', serif; }
+    font-family: avenir; }
   .more-info .contact-info {
     display: inline-block;
     float: right;
     width: 50%;
     padding-left: 6%;
-    font-family: 'Yrsa', serif;
+    font-family: avenir;
     font-size: 2em; }
   .more-info .fa-linkedin {
     padding-left: 20px; }
