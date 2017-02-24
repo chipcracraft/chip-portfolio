@@ -383,7 +383,7 @@ body {
   padding-top: 15%;
   padding-bottom: 25%;
   background-size: cover;
-  background: linear-gradient(to right bottom, #4990E2 50%, #4697F7 45%);
+  background: linear-gradient(to right bottom, #4990E2 45%, #4697F7 45%);
   width: 100%; }
 
 .chip {
@@ -398,7 +398,7 @@ body {
 
 .front-end {
   margin-left: 27%;
-  font-family: avenir;
+  font-family: avenir black;
   padding-top: 2%;
   font-weight: 100; }
 
@@ -418,7 +418,7 @@ h2 {
   top: 50%; }
 
 .about-me {
-  font-family: 'Holtwood One SC', serif;
+  font-family: avenir;
   color: #3498db;
   background-color: white;
   font-size: 2em;
@@ -439,7 +439,7 @@ h2 {
 
 .my-info {
   padding-left: 25%;
-  font-family: 'Yrsa', serif;
+  font-family: avenir;
   font-size: 1em; }
 
 .projects {
@@ -451,7 +451,7 @@ h2 {
 .header {
   padding-top: 2%;
   padding-left: 33%;
-  font-family: 'Holtwood One SC', serif; }
+  font-family: avenir; }
 
 .whosplayin {
   float: left;
