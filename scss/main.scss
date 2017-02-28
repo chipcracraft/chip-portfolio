@@ -26,9 +26,9 @@ body {
     font-size: 3em;
     padding-left: 20%;
     padding-top: 15%;
-    padding-bottom: 25%;
+    padding-bottom: 10%;
     background-size: cover;
-    background: linear-gradient(to right bottom, #4990E2 45%, #4697F7 45%);
+    background: linear-gradient(to right bottom, #4990E2 50%, #4697F7 45%);
     width:100%;
   }
 
@@ -143,7 +143,7 @@ body {
 .whopimg, .lagLeg {
   height: 300px;
   width: 300px;
-  border-radius: 50%;
+  border-radius: 4%;
   margin-left: 65px;
 }
 
@@ -165,10 +165,6 @@ body {
 
   }
 
-  // .right-col {
-  // float:right;
-  // display: inline-block;
-  // }
   a{
     color: white;
   }
@@ -179,8 +175,6 @@ body {
 .more-info {
   background-color:#4697F7;
   color:white;
-  // max-height: 1000px;
-  // max-width: 1280px;
   width: 100%;
 
     .heads {
@@ -189,14 +183,15 @@ body {
     }
 
     .contact-info {
-      padding-left: 40%;
+      padding-left: 36%;
       font-family: avenir;
       font-size: 2em;
-
+      align-items:center;
+      justify-content:center;
 
     }
 
-    .fa-linkedin {
+    .fa-linkedin, .fa-instagram {
       padding-left: 20px;
     }
 
