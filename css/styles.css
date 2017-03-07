@@ -437,9 +437,10 @@ h2 {
     display: inline-block;
     width: 50%;
     float: right;
-    padding-top: 10%; }
+    padding-top: 13%; }
   .about-me .about {
-    padding-left: 40%; }
+    padding-left: 40%;
+    font-weight: bold; }
   .about-me .my-info {
     font-family: avenir;
     font-size: 1em; }
@@ -454,7 +455,8 @@ h2 {
 .header {
   padding-top: 2%;
   padding-left: 33%;
-  font-family: avenir; }
+  font-family: avenir;
+  font-weight: bold; }
 
 .whosplayin {
   float: left;
@@ -493,7 +495,8 @@ a {
   color: white;
   width: 100%; }
   .more-info .heads {
-    font-family: avenir; }
+    font-family: avenir;
+    font-weight: bold; }
   .more-info .contact-info {
     padding-left: 36%;
     font-family: avenir;
