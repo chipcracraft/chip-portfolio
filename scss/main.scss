@@ -121,7 +121,8 @@ body {
   font-size: 2em;
   margin: 0;
   width: 100%;
-}
+  
+
 
   .header {
     padding-top: 2%;
@@ -130,17 +131,15 @@ body {
     font-weight: bold;
   }
 
-  .whosplayin{
-    float: left;
+  .whosplayin,.lager,.netflix{
     font-family: avenir;
     font-size: 1em;
     display: inline-block;
-    width: 33%;
-    padding-left: 5%;
-
+    width: 32.2666666667%;
+    margin: 0;
 }
 
-.whopimg, .lagLeg {
+.whopimg, .lagLeg, .netfliximg {
   height: 300px;
   width: 300px;
   border-radius: 4%;
@@ -148,19 +147,21 @@ body {
 }
 
 .lager {
-  float: right;
-  font-family: avenir;
-  font-size: 1em;
-  display: inline-block;
-  width: 33%;
-  padding-left: 10%;
+  padding-bottom: 5%;
 }
+
   
-  .netflix {
-    width:33%;
-  }
+// .netflix {
+//   width:31%;
+//   display:inline-block;
+//   font-family: avenir;
+//   font-size: 1em;
+
+//   }
   
-  
+}  
+
+
   .title {
     font-weight: 500;
   }
