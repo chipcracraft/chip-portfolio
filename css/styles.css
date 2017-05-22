@@ -450,7 +450,8 @@ h2 {
   color: white;
   font-size: 2em;
   margin: 0;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   .projects .header {
     padding-top: 2%;
     padding-left: 36%;
@@ -468,7 +469,11 @@ h2 {
     border-radius: 4%;
     margin-left: 65px; }
   .projects .lager {
-    padding-bottom: 5%; }
+    position: absolute;
+    right: 34%; }
+  .projects .netflix {
+    position: absolute;
+    right: 1%; }
 
 .title {
   font-weight: 500; }

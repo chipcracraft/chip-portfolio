@@ -121,6 +121,7 @@ body {
   font-size: 2em;
   margin: 0;
   width: 100%;
+  position:relative;
   
 
 
@@ -137,6 +138,7 @@ body {
     display: inline-block;
     width: 32.2666666667%;
     margin: 0;
+    
 }
 
 .whopimg, .lagLeg, .netfliximg {
@@ -147,9 +149,13 @@ body {
 }
 
 .lager {
-  padding-bottom: 5%;
+   position: absolute;
+   right: 34%;
 }
-
+.netflix {
+  position: absolute;
+  right: 1%;
+}
   
 // .netflix {
 //   width:31%;
