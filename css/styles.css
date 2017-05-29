@@ -511,7 +511,11 @@ a {
   .more-info .fa-linkedin, .more-info .fa-instagram {
     padding-left: 20px; }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
+  .chip {
+    font-size: 1.5em;
+    display: inline-block; }
+
   .whosplayin, .lager {
     display: block;
     width: 50%; } }
