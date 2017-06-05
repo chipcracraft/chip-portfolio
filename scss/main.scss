@@ -242,6 +242,10 @@ body {
           display: block;
           width: 100%;
         }
+
+        .about-me > .about {
+          padding-left: 35%;
+        }
         
       
         .about-me > .info-sect {
@@ -252,10 +256,22 @@ body {
           width: 50%;
         }
     
+        .projects > .header {
+          padding-left: 31%;
+        }
+
+
+
+
     .projects > .whosplayin, .lager, .netflix {
         display: block;
-        width: 50%;
+        position: static;
+        text-align: center;
       }
+
+    .projects > .whopimg, .lagLeg,.netfliximg {
+          margin-left: 70px;
+    }
 
 
 }
