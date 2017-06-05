@@ -516,7 +516,10 @@ a {
     font-size: 1.5em;
     display: inline-block; }
 
-  .whosplayin, .lager {
+  .about-me {
+    display: block; }
+
+  .whosplayin, .lager, .netflix {
     display: block;
     width: 50%; } }
 
