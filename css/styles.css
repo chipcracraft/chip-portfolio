@@ -511,22 +511,39 @@ a {
   .more-info .fa-linkedin, .more-info .fa-instagram {
     padding-left: 20px; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .chip {
     font-size: 1.5em;
     display: inline-block; }
+
+  .front-end {
+    margin-left: 23%; }
+
+  .down-arrow {
+    padding-left: 37%; }
 
   .about-me > .img-container {
     display: block;
     width: 100%; }
 
+  .about-me > .about {
+    padding-left: 35%; }
+
   .info-sect {
     display: block;
-    position: relative;
-    left: 28%; }
+    text-align: center;
+    margin-right: 25%;
+    margin-bottom: 5%; }
 
-  .whosplayin, .lager, .netflix {
+  .projects > .header {
+    padding-left: 31%; }
+
+  .projects > .whosplayin, .lager, .netflix {
     display: block;
-    width: 50%; } }
+    position: static;
+    text-align: center; }
+
+  .projects > .whopimg, .lagLeg, .netfliximg {
+    margin-left: 70px; } }
 
 /*# sourceMappingURL=styles.css.map */
