@@ -516,8 +516,14 @@ a {
     font-size: 1.5em;
     display: inline-block; }
 
-  .about-me {
-    display: block; }
+  .about-me > .img-container {
+    display: block;
+    width: 100%; }
+
+  .info-sect {
+    display: block;
+    position: relative;
+    left: 28%; }
 
   .whosplayin, .lager, .netflix {
     display: block;
