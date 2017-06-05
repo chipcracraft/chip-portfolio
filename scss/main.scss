@@ -230,7 +230,7 @@ body {
 
 }
 
-@media screen and(max-width: 768px) {
+@media screen and(max-width: 800px) {
 
 
       .chip {
@@ -252,7 +252,7 @@ body {
           width: 50%;
         }
     
-    .whosplayin, .lager, .netflix {
+    .projects > .whosplayin, .lager, .netflix {
         display: block;
         width: 50%;
       }
